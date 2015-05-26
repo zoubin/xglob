@@ -1,0 +1,36 @@
+{
+  "name": "xglob",
+  "version": "0.0.1",
+  "description": "promisify glob and support mulptiple patterns",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js | faucet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoubin/xglob.git"
+  },
+  "keywords": [
+    "glob",
+    "array",
+    "promisify"
+  ],
+  "author": "zoubin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zoubin/xglob/issues"
+  },
+  "homepage": "https://github.com/zoubin/xglob#readme",
+  "dependencies": {
+    "array-promise-filter": "^0.1.0",
+    "glob": "^5.0.9",
+    "minimatch": "^2.0.8",
+    "node-promisify": "^0.1.2",
+    "xbind": "^0.1.2"
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tape": "^4.0.0",
+    "util-path": "^0.1.1"
+  }
+}
