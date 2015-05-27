@@ -15,6 +15,9 @@ Work in both callback style and promise style.
 
 ### files = glob.sync(patterns, opts)
 
+### glob.glob
+Just export [glob](https://www.npmjs.com/package/glob)
+
 ## Example
 
 ```
