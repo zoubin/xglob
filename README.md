@@ -1,7 +1,7 @@
 # xglob
 [promisify](https://www.npmjs.com/package/node-promisify) [glob](https://www.npmjs.com/package/glob) and support mulptiple patterns.
 
-Additionally, negation pattern can be function. If truthy value returned, the negation pattern matches.
+Additionally, negation pattern can be function or some object with a `test` method like regular expression. If truthy value returned, the negation pattern matches.
 
 ## Usage
 

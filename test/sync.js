@@ -22,6 +22,15 @@ tape('glob.sync([pattern, negation], opts)', function (t) {
     t.end();
 });
 
+tape('glob.sync([pattern, regxNegation], opts)', function (t) {
+    t.same(
+        glob.sync(['**/', /^\w+\/$/], { cwd: fixtures }).sort()
+        ,
+        [ 'dir/e/', 'dir/f/'  ]
+    );
+    t.end();
+});
+
 tape('glob.sync([pattern, negationFunction], opts)', function (t) {
     t.same(
         glob.sync(['**/*.js', '**/*.css', function (file, opts) {
