@@ -1,6 +1,6 @@
 {
   "name": "xglob",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "glob with mulptiple patterns",
   "main": "index.js",
   "scripts": {
